@@ -15,7 +15,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class UserInfoController {
     private final UserInfoService userInfoService;
-
+    // url 매핑
     @GetMapping("/users")
     public String listUsers(Model model) {
         List<UserInfo> users = userInfoService.getAllUsers();

@@ -3,7 +3,7 @@ package com.example.study.domain;
 import java.sql.Date;
 
 import lombok.Data;
-
+// model
 @Data
 public class UserInfo {
     private int empno;
